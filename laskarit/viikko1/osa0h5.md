@@ -5,7 +5,7 @@
 
     browser->>server: request URL https://studies.cs.helsinki.fi/exampleapp/spa method GET:304
     activate server
-    server->>browser HTML file
+    server->>browser: HTML file
     deactivate server
 
     browser->>server: request URL https://studies.cs.helsinki.fi/exampleapp/main.css method GET:304
